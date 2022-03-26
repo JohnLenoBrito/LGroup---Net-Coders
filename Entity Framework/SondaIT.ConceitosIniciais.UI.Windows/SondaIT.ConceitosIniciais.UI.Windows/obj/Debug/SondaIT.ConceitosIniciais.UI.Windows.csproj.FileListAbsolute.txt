@@ -1,0 +1,47 @@
+C:\Users\john.oliveira\Desktop\entity\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\SondaIT.ConceitosIniciais.UI.Windows.exe.config
+C:\Users\john.oliveira\Desktop\entity\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\SondaIT.ConceitosIniciais.UI.Windows.exe
+C:\Users\john.oliveira\Desktop\entity\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\SondaIT.ConceitosIniciais.UI.Windows.pdb
+C:\Users\john.oliveira\Desktop\entity\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.csprojResolveAssemblyReference.cache
+C:\Users\john.oliveira\Desktop\entity\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.Modulos.Amigos.frmCadastrar.resources
+C:\Users\john.oliveira\Desktop\entity\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.Properties.Resources.resources
+C:\Users\john.oliveira\Desktop\entity\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.csproj.GenerateResource.Cache
+C:\Users\john.oliveira\Desktop\entity\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.exe
+C:\Users\john.oliveira\Desktop\entity\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.pdb
+C:\Users\john.oliveira\Desktop\entity\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\EntityFramework.dll
+C:\Users\john.oliveira\Desktop\entity\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\john.oliveira\Desktop\entity\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\EntityFramework.xml
+C:\Users\john.oliveira\Desktop\entity\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\john.oliveira\Desktop\entity\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.Modulos.Amigos.frmEditar.resources
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\SondaIT.ConceitosIniciais.UI.Windows.exe.config
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.exe
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\SondaIT.ConceitosIniciais.UI.Windows.exe
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\SondaIT.ConceitosIniciais.UI.Windows.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\EntityFramework.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\EntityFramework.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.csprojResolveAssemblyReference.cache
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.Modulos.Amigos.frmCadastrar.resources
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.Modulos.Amigos.frmEditar.resources
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.Modulos.Amigos.frmListar.resources
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.Properties.Resources.resources
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.csproj.GenerateResource.Cache
+D:\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\SondaIT.ConceitosIniciais.UI.Windows.exe.config
+D:\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.exe
+D:\LGroup - .Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.pdb
+C:\Users\joliveira\Documents\LGroup - Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\SondaIT.ConceitosIniciais.UI.Windows.exe.config
+C:\Users\joliveira\Documents\LGroup - Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.exe
+C:\Users\joliveira\Documents\LGroup - Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.pdb
+C:\Users\joliveira\Documents\LGroup - Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\SondaIT.ConceitosIniciais.UI.Windows.exe
+C:\Users\joliveira\Documents\LGroup - Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\SondaIT.ConceitosIniciais.UI.Windows.pdb
+C:\Users\joliveira\Documents\LGroup - Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\EntityFramework.dll
+C:\Users\joliveira\Documents\LGroup - Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\joliveira\Documents\LGroup - Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\EntityFramework.xml
+C:\Users\joliveira\Documents\LGroup - Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\joliveira\Documents\LGroup - Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.csprojResolveAssemblyReference.cache
+C:\Users\joliveira\Documents\LGroup - Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.Modulos.Amigos.frmCadastrar.resources
+C:\Users\joliveira\Documents\LGroup - Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.Modulos.Amigos.frmEditar.resources
+C:\Users\joliveira\Documents\LGroup - Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.Modulos.Amigos.frmListar.resources
+C:\Users\joliveira\Documents\LGroup - Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.Properties.Resources.resources
+C:\Users\joliveira\Documents\LGroup - Net Coders\Entity Framework\SondaIT.ConceitosIniciais.UI.Windows\SondaIT.ConceitosIniciais.UI.Windows\obj\Debug\SondaIT.ConceitosIniciais.UI.Windows.csproj.GenerateResource.Cache

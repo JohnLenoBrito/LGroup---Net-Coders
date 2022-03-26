@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="INCUBADORAModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="INCUBADORAModelStoreContainer">
+    <EntitySet Name="TB_CONTATO" EntityType="INCUBADORAModel.Store.TB_CONTATO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TB_LOGIN" EntityType="INCUBADORAModel.Store.TB_LOGIN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TB_SEXO" EntityType="INCUBADORAModel.Store.TB_SEXO" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_TB_CONTATO_TB_SEXO" Association="INCUBADORAModel.Store.FK_TB_CONTATO_TB_SEXO">
+      <End Role="TB_SEXO" EntitySet="TB_SEXO" />
+      <End Role="TB_CONTATO" EntitySet="TB_CONTATO" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TB_CONTATO">
+    <Key>
+      <PropertyRef Name="ID_CONTATO" />
+    </Key>
+    <Property Name="ID_CONTATO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ID_SEXO" Type="int" Nullable="false" />
+    <Property Name="NM_CONTATO" Type="varchar" Nullable="false" MaxLength="40" />
+    <Property Name="DS_EMAIL" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="NR_TELEFONE" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="DT_NASCIMENTO" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TB_LOGIN">
+    <Key>
+      <PropertyRef Name="ID_LOGIN" />
+    </Key>
+    <Property Name="ID_LOGIN" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NM_NOME" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="DS_SENHA" Type="varchar" Nullable="false" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="TB_SEXO">
+    <Key>
+      <PropertyRef Name="ID_SEXO" />
+    </Key>
+    <Property Name="ID_SEXO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DS_SEXO" Type="char" Nullable="false" MaxLength="9" />
+  </EntityType>
+  <Association Name="FK_TB_CONTATO_TB_SEXO">
+    <End Role="TB_SEXO" Type="INCUBADORAModel.Store.TB_SEXO" Multiplicity="1" />
+    <End Role="TB_CONTATO" Type="INCUBADORAModel.Store.TB_CONTATO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_SEXO">
+        <PropertyRef Name="ID_SEXO" />
+      </Principal>
+      <Dependent Role="TB_CONTATO">
+        <PropertyRef Name="ID_SEXO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

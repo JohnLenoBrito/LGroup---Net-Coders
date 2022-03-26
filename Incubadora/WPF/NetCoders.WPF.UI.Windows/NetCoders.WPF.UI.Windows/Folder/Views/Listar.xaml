@@ -1,0 +1,32 @@
+﻿<Window x:Class="NetCoders.WPF.UI.Windows.Folder.Views.Listar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Listar" Height="500" Width="600" WindowStartupLocation="CenterScreen" Icon="/NetCoders.WPF.UI.Windows;component/Folder/Images/logoPrincipal2.png" Loaded="Window_Loaded">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black" Offset="1"/>
+            <GradientStop Color="#FF0CE2CF"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="341*"/>
+            <ColumnDefinition Width="218*"/>
+            <ColumnDefinition Width="47*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="DataGridContatos" HorizontalAlignment="Center" VerticalAlignment="Top" AutoGenerateColumns="False" Height="387" Width="592" Grid.ColumnSpan="4">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Codigo}" Header="Codigo" Width="50"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Nome}" Header="Nome" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Email}" Header="Email" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Telefone}" Header="Telefone" Width="100"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding DataNascimento, StringFormat=dd/MM/yyyy}" Header="Data de Nascimento" Width="130"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="btnEditar" Content="Editar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="177" RenderTransformOrigin="1.459,19.849" Grid.Column="1" Margin="3,404,0,0" Height="56"/>
+        <Button x:Name="btnAtualizar" Grid.ColumnSpan="2" Content="Atualizar" Grid.Column="1" HorizontalAlignment="Left" Margin="185,404,0,0" VerticalAlignment="Top" Width="207" Height="56" Click="btnAtualizar_Click"/>
+        <Button x:Name="btnExcluir" Grid.ColumnSpan="2" Content="Excluir" Grid.Column="2" HorizontalAlignment="Left" Margin="68,404,0,0" VerticalAlignment="Top" Width="178" Height="56"/>
+
+    </Grid>
+</Window>

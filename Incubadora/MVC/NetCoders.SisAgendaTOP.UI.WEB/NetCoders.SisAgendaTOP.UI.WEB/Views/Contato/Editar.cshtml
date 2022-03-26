@@ -1,0 +1,23 @@
+﻿@model ContatoMOD
+
+
+@{
+    ViewBag.Title = "Editar Contatos";
+    Layout = "~/Views/Shered/_LayoutPadrao.cshtml";
+}
+
+<fieldset>
+    <legend>Informações Cadastrais</legend>
+
+    @using (Html.BeginForm())
+    {
+        @Html.Partial("_PartialContato");
+        
+        @*<input type="reset" name="limpar" id="limpar" value="Limpar" />*@
+        @Html.Button("reset", "limpar", "limpar", "Limpar", "btn btn-primary")
+
+        @*<input type="submit" name="cadastrar" id="cadastrar" value="Cadastrar" />*@
+        @Html.Button("submit", "editar", "editar", "Editar", "btn btn-success")
+        @Html.Br()        
+    }
+</fieldset>

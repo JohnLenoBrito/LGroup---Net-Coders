@@ -1,0 +1,16 @@
+﻿<Window x:Class="NetCoders.WPF.UI.Windows.Folder.Views.Leitor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Leitor" Height="500" Width="500" Icon="/NetCoders.WPF.UI.Windows;component/Folder/Images/logoPrincipal2.png" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black" Offset="1"/>
+            <GradientStop Color="#FF0CE2CF"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <TextBox x:Name="TxtFala" HorizontalAlignment="Left" Height="307" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="472" Margin="10,29,0,0" IsMouseCapturedChanged="TxtFala_IsMouseCapturedChanged"/>
+        <Button x:Name="BtnFala" Content="Falar" HorizontalAlignment="Left" Margin="136,361,0,0" VerticalAlignment="Top" Width="224" Height="85" FontFamily="Comic Sans MS" FontSize="48" Click="BtnFala_Click"/>
+
+    </Grid>
+</Window>

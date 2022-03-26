@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Listar";
+    Layout = "~/Views/Shared/_LayoutRoot.cshtml";
+}
+
+@*descemos o naspace para fazer o model bind*@
+@using SondaIT.SuperSisAmigos.DomainModel.Models
+
+@*Aqui estamos fazendo o model bind, trazendo uma lista para view*@
+@model IEnumerable<AmigosModel>
+
+<h2>Listar</h2>
+
+<br />
+
+<fieldset>
+    <legend>...:: FILTRO ::...</legend>
+    <br />
+    <label>Nome: </label>
+    <input type="text" name="nome" id="nome" palceholder="Digite o Nome" />
+    <input type="submit" name="filtrar" id="filtrar" value="FILTRAR" />
+    <br />
+
+</fieldset>
+
+<br />
+<br />
+
+<table class="table table-bordered table-condensed">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NOME</th>
+            <th>RG</th>
+            <th>CPF</th>
+            <th>DATA NASCIMENTO</th>
+            <th>EMAIL</th>
+            <th>TELEFONE</th>
+            <th>ESTADO CIVIL</th>
+            <th>SEXO</th>
+            <th>Editar</th>
+            <th>Deletar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var p in Model)
+            {
+
+                <tr>
+                    <td>@p.ID</td>
+                    <td>@p.NOME</td>
+                    <td>@p.RG</td>
+                    <td>@p.CPF</td>
+                    <td>@p.DATA_NASCIMENTO</td>
+                    <td>@p.EMAIL</td>
+                    <td>@p.TELEFONE</td>
+                    <td>@p.REL_ESTADO_CIVIL.DESCRICAO_ESTADO_CIVIL</td>
+                    <td>@p.REL_SEXO.DESCRICAO_SEXO</td>
+                    <td><a href="/Amigos/Editar/@p.ID"><span class="glyphicon glyphicon-pencil"></span></a></td>
+                    <td><a href="/Amigos/Deletar/@p.ID"><span class="glyphicon glyphicon-trash"></span></a></td>
+                </tr>
+            }
+        }
+        else
+        {
+            <div class="alert alert-info" role="alert">Nenhum amigo encontrado</div>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="11">
+                @if(Model != null){
+                <p>TOTAL DE : @Model.Count()</p>
+                }
+                else{<p>TOTAL DE : 0</p>
+                }
+            </td>
+        </tr>
+    </tfoot>
+</table>

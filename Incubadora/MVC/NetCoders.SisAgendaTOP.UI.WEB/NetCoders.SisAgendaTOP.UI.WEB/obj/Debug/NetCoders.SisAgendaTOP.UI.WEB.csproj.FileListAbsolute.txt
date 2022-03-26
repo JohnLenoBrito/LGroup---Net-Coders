@@ -1,0 +1,96 @@
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.UI.WEB.dll
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.UI.WEB.pdb
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\Newtonsoft.Json.dll
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Net.Http.Formatting.dll
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Helpers.dll
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Http.dll
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Http.WebHost.dll
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Mvc.dll
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Razor.dll
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.Deployment.dll
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.dll
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.Razor.dll
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\Newtonsoft.Json.xml
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Net.Http.Formatting.xml
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Helpers.xml
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Http.xml
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Http.WebHost.xml
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Mvc.xml
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Razor.xml
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.xml
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.Deployment.xml
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.Razor.xml
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\obj\Debug\NetCoders.SisAgendaTOP.UI.WEB.csprojResolveAssemblyReference.cache
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\obj\Debug\NetCoders.SisAgendaTOP.UI.WEB.dll
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\obj\Debug\NetCoders.SisAgendaTOP.UI.WEB.pdb
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.Model.dll
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.Model.pdb
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\obj\Debug\NetCoders.SisAgendaTOP.UI.WEB.csprojResolveAssemblyReference.cache
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\obj\Debug\NetCoders.SisAgendaTOP.UI.WEB.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\obj\Debug\NetCoders.SisAgendaTOP.UI.WEB.pdb
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.UI.WEB.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.UI.WEB.pdb
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.Model.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.Repository.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\Newtonsoft.Json.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Net.Http.Formatting.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Helpers.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Http.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Http.WebHost.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Mvc.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Razor.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.Deployment.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.Razor.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.DataAccess.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\EntityFramework.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.Model.pdb
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.Repository.pdb
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\Newtonsoft.Json.xml
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Net.Http.Formatting.xml
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Helpers.xml
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Http.xml
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Http.WebHost.xml
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Mvc.xml
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Razor.xml
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.xml
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.Deployment.xml
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.Razor.xml
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.DataAccess.pdb
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\EntityFramework.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.UI.WEB.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.UI.WEB.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\EntityFramework.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.Model.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.Repository.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\Newtonsoft.Json.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Net.Http.Formatting.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Helpers.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Http.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Http.WebHost.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Mvc.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Razor.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.Deployment.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.Razor.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.DataAccess.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.Model.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.Repository.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\EntityFramework.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\Newtonsoft.Json.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Net.Http.Formatting.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Helpers.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Http.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Http.WebHost.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Mvc.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.Razor.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.Deployment.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\System.Web.WebPages.Razor.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\bin\NetCoders.SisAgendaTOP.DataAccess.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\obj\Debug\NetCoders.SisAgendaTOP.UI.WEB.csprojResolveAssemblyReference.cache
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\obj\Debug\NetCoders.SisAgendaTOP.UI.WEB.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB\obj\Debug\NetCoders.SisAgendaTOP.UI.WEB.pdb

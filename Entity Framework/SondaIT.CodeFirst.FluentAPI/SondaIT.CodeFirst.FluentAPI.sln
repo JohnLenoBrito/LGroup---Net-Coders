@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SondaIT.CodeFirst.FluentAPI.Model", "SondaIT.CodeFirst.FluentAPI.Model\SondaIT.CodeFirst.FluentAPI.Model.csproj", "{62C8487F-A1A9-4F1C-91F9-31AAA89F47B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SondaIT.CodeFirst.FluentAPI.DataAccess", "SondaIT.CodeFirst.FluentAPI.DataAccess\SondaIT.CodeFirst.FluentAPI.DataAccess.csproj", "{AFE13445-73E8-4EEF-A098-6F83F8F93AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SondaIT.CodeFirst.FluentAPI.Tests", "SondaIT.CodeFirst.FluentAPI.Tests\SondaIT.CodeFirst.FluentAPI.Tests.csproj", "{5356F1EE-D626-4FF9-93E9-A5599DB6F8C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SondaIT.CodeFirst.FluentAPI.Repository", "SondaIT.CodeFirst.FluentAPI.Repository\SondaIT.CodeFirst.FluentAPI.Repository.csproj", "{C181C744-C87B-4D90-A82B-196C54242F26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SondaIT.CodeFirst.FluentAPI.UI.Web", "SondaIT.CodeFirst.FluentAPI.UI.Web\SondaIT.CodeFirst.FluentAPI.UI.Web.csproj", "{114FFF07-1914-4AAF-BD80-92681AC1BE20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62C8487F-A1A9-4F1C-91F9-31AAA89F47B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C8487F-A1A9-4F1C-91F9-31AAA89F47B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C8487F-A1A9-4F1C-91F9-31AAA89F47B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C8487F-A1A9-4F1C-91F9-31AAA89F47B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE13445-73E8-4EEF-A098-6F83F8F93AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE13445-73E8-4EEF-A098-6F83F8F93AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE13445-73E8-4EEF-A098-6F83F8F93AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE13445-73E8-4EEF-A098-6F83F8F93AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5356F1EE-D626-4FF9-93E9-A5599DB6F8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5356F1EE-D626-4FF9-93E9-A5599DB6F8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5356F1EE-D626-4FF9-93E9-A5599DB6F8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5356F1EE-D626-4FF9-93E9-A5599DB6F8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C181C744-C87B-4D90-A82B-196C54242F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C181C744-C87B-4D90-A82B-196C54242F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C181C744-C87B-4D90-A82B-196C54242F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C181C744-C87B-4D90-A82B-196C54242F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114FFF07-1914-4AAF-BD80-92681AC1BE20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114FFF07-1914-4AAF-BD80-92681AC1BE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114FFF07-1914-4AAF-BD80-92681AC1BE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114FFF07-1914-4AAF-BD80-92681AC1BE20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

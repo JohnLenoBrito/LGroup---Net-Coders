@@ -1,0 +1,61 @@
+﻿@{
+    Layout = null;
+}
+
+@using SondaIT.SuperSisAmigos.DomainModel.Models
+
+@model LoginModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div>
+
+        @using (Html.BeginForm())
+        {
+            <header>
+                <h1>Autenticação do Usuario</h1>
+               
+            </header>
+            <br />
+
+            @*FIZEMOS UM IF PARA VERIFICAR SE A NOSSA VIEWBAG ESTÁ PREENCHIDA SE ESTIVER MANDAMOS ELA APARECER*@
+            if (@ViewBag.information != null)
+            {
+                <div class="alert alert-info" role="alert">@ViewBag.information</div>
+            }
+
+            <fieldset>
+                <legend>
+                    AUTENTICAÇÃO DO USUÁRIO
+                </legend>
+                <br />
+
+                @*Estamos utilizando os recursos do ASP NET MVC, esses recursos são conhecidos como HTML HELPERS....
+                    para identificar que está utilizando os helpers é só se a TAGG começa com @html*@
+                <div>
+                    @Html.LabelFor(c => c.USUARIO)
+                    @*colocando CSS nos controles HTML Helpers new { @class = "form-control" }*@
+                    @Html.TextBoxFor(c => c.USUARIO, new { @class = "form-control" })
+                </div>
+                <div>
+                    @Html.LabelFor(c => c.SENHA)
+                    @Html.PasswordFor(c => c.SENHA, new { @class = "form-control" })
+                </div>
+                <br />
+                <div>
+                    <input type="submit" name="acessar" formaction="~/Login/Autentication" class="btn btn-success" id="acessar" value="ACESSAR" />
+                </div>
+            </fieldset>
+        }
+
+    </div>
+</body>
+</html>

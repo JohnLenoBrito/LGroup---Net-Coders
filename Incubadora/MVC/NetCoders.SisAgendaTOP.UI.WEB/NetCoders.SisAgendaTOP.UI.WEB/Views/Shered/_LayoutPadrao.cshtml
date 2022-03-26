@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <!--Importamos os Scripts do JQUERY-->
+    <script src="~/Scripts/jquery-2.1.3.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.11.2.min.js"></script>
+    <script src="~/Scripts/jquery.maskedinput.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/bootbox.min.js"></script>
+
+    <!--Importamos os Scripts do BOOTSTRAP-->
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+    <!--Importamos as bibliotecas de CSS-->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    @*<link href="~/Content/bootstrap.cerulean.min.css" rel="stylesheet" />*@
+
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/start/jquery-ui.min.css" rel="stylesheet" />
+
+        <script type="text/javascript">
+            $(function () {
+                $("#Telefone").mask("(99) 99999-9999");
+                $("#DataNascimento").mask("99/99/9999");
+                $("#DataNascimento").datepicker({
+                    dateFormat: "dd/mm/yy",
+                    showAnim: "explode",
+                    dayNamesMin: ['D', 'S', 'T', 'Q', 'Q', 'S', 'S', 'D'],
+                    monthNames: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+                    nextText: 'Próximo',
+                    prevText: 'Anterior'
+                });
+            });
+        </script>
+
+        <style>
+            body {
+                padding-bottom: 60px;
+            }
+        </style>
+
+</head>
+<body>
+    <header>
+        <img src="~/Content/Images/logo.png" title="Logotipo da empresa" />
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="http://www.netcoders.com.br">NetCoders</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Listar Contatos", "Listar", "Contato")</li>
+                        <li>@Html.ActionLink("Cadastrar Contatos", "Cadastrar", "Contato")</li>
+                        <li>@Html.ActionLink("Sair", "Logout", "Contato")</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section>
+
+            @if (TempData["Mensagem"] != null)
+            {
+                @Html.Partial("_PartialMensagem");
+            }
+
+        </section>
+
+        <h1>@ViewBag.Title</h1>
+    </header>
+
+    <section class="container">
+        @RenderBody()
+    </section>
+    <footer>
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <p>&copy; Todos os direitor reservados ao <strong><mark>John Leno Brito</mark></strong></p>
+            </div>
+        </nav>
+
+    </footer>
+</body>
+</html>
+
+<!--vinho: tag ou elemento e vermelho: atributo-->

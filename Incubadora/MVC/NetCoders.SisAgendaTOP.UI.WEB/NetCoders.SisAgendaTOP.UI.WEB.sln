@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoders.SisAgendaTOP.UI.WEB", "NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.UI.WEB.csproj", "{020EFE18-4FE7-485B-84C5-337E06EF7CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoders.SisAgendaTOP.Model", "NetCoders.SisAgendaTOP.Model\NetCoders.SisAgendaTOP.Model.csproj", "{CFA81055-DB5C-4ECE-B908-1BE409242A32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoders.SisAgendaTOP.DataAccess", "NetCoders.SisAgendaTOP.DataAccess\NetCoders.SisAgendaTOP.DataAccess.csproj", "{F34B8E0E-596B-423F-AAF2-ED9EAA2315B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoders.SisAgendaTOP.Repository", "NetCoders.SisAgendaTOP.Repository\NetCoders.SisAgendaTOP.Repository.csproj", "{2E54E525-1533-4295-BBAA-3289B3A88DC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Telas", "Telas", "{BAE7BEAB-EE6F-4462-9F29-60C59BBDE149}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Armazenamento de Dados", "Armazenamento de Dados", "{087BB3EC-9775-4AF4-96D2-B6463542970A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Banco", "Banco", "{00A4E04D-CBD5-4502-9C6D-9FDB9C126E92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{020EFE18-4FE7-485B-84C5-337E06EF7CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020EFE18-4FE7-485B-84C5-337E06EF7CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020EFE18-4FE7-485B-84C5-337E06EF7CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020EFE18-4FE7-485B-84C5-337E06EF7CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFA81055-DB5C-4ECE-B908-1BE409242A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA81055-DB5C-4ECE-B908-1BE409242A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA81055-DB5C-4ECE-B908-1BE409242A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA81055-DB5C-4ECE-B908-1BE409242A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F34B8E0E-596B-423F-AAF2-ED9EAA2315B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34B8E0E-596B-423F-AAF2-ED9EAA2315B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34B8E0E-596B-423F-AAF2-ED9EAA2315B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34B8E0E-596B-423F-AAF2-ED9EAA2315B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E54E525-1533-4295-BBAA-3289B3A88DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E54E525-1533-4295-BBAA-3289B3A88DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E54E525-1533-4295-BBAA-3289B3A88DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E54E525-1533-4295-BBAA-3289B3A88DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{020EFE18-4FE7-485B-84C5-337E06EF7CA1} = {BAE7BEAB-EE6F-4462-9F29-60C59BBDE149}
+		{CFA81055-DB5C-4ECE-B908-1BE409242A32} = {087BB3EC-9775-4AF4-96D2-B6463542970A}
+		{F34B8E0E-596B-423F-AAF2-ED9EAA2315B6} = {00A4E04D-CBD5-4502-9C6D-9FDB9C126E92}
+		{2E54E525-1533-4295-BBAA-3289B3A88DC0} = {00A4E04D-CBD5-4502-9C6D-9FDB9C126E92}
+	EndGlobalSection
+EndGlobal

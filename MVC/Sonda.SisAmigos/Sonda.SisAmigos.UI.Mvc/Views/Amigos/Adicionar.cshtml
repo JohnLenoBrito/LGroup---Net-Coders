@@ -1,0 +1,86 @@
+﻿@{
+    Layout = null;
+}
+
+@using Sonda.SisAmigos.UI.Mvc.Models
+
+@*@model Sonda.SisAmigos.UI.Mvc.Models.AmigosModel*@
+
+    <!DOCTYPE html>
+
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Adicionar</title>
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+        <link href="~/MeusStyles/ComponentesAdicionais.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div>
+            <h1>Adicionar Amigo</h1>
+            <br />
+            <form method="post">
+                <fieldset>
+                    <legend>..Dados..</legend>
+                    <br />
+                    <div>
+                        <label>Nome</label>
+                    </div>
+                    <div>
+                        <input name="Nome" id="Nome" type="text" class="form-control input" />
+                    </div>
+                    <div>
+                        <label>RG</label>
+                    </div>
+                    <div>
+                        <input name="Rg" id="Rg" type="text" class="form-control input" />
+                    </div>
+                    <div>
+                        <label>CPF</label>
+                    </div>
+                    <div>
+                        <input name="Cpf" id="Cpf" type="text" class="form-control input" />
+                    </div>
+                    <div>
+                        <label>Email</label>
+                    </div>
+                    <div>
+                        <input name="Email" id="Email" type="text" class="form-control input" />
+                    </div>
+                    <div>
+                        <label>Data Nascimento</label>
+                    </div>
+                    <div>
+                        <input name="Data_Nascimento" id="Data_Nascimento" type="text" class="form-control input" />
+                    </div>
+                    <div>
+                        <label>Estado Civil</label>
+                    </div>
+                    <div>
+                        <select name="Estado_Civil" id="Estado_Civil" class="form-control input">
+                            <option value="value">Selecione</option>
+                            <option value="1">Casado</option>
+                            <option value="2">Solteiro</option>
+                            <option value="3">Viuvo</option>
+                            <option value="4">Na Pista</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Sexo</label>
+                    </div>
+                    <div>
+                        <select name="Sexo" id="Sexo" class="form-control input">
+                            <option value="value">Selecione</option>
+                            <option value="1">Masculino</option>
+                            <option value="2">Feminino</option>
+                        </select>
+                    </div>
+                    <br />
+                    <div>
+                        <input name="cadastrar" value="Cadastrar" type="submit" formaction="/Amigos/Insert" class="btn btn-primary" />
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\bin\Debug\NetCoders.SisAgendaTOP.Repository.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\bin\Debug\NetCoders.SisAgendaTOP.Repository.pdb
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\bin\Debug\EntityFramework.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\bin\Debug\NetCoders.SisAgendaTOP.DataAccess.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\bin\Debug\NetCoders.SisAgendaTOP.Model.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\bin\Debug\NetCoders.SisAgendaTOP.DataAccess.pdb
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\bin\Debug\NetCoders.SisAgendaTOP.Model.pdb
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\bin\Debug\EntityFramework.xml
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\obj\Debug\NetCoders.SisAgendaTOP.Repository.csprojResolveAssemblyReference.cache
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\obj\Debug\NetCoders.SisAgendaTOP.Repository.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\obj\Debug\NetCoders.SisAgendaTOP.Repository.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\bin\Debug\NetCoders.SisAgendaTOP.Repository.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\bin\Debug\NetCoders.SisAgendaTOP.Repository.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\bin\Debug\EntityFramework.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\bin\Debug\NetCoders.SisAgendaTOP.DataAccess.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\bin\Debug\NetCoders.SisAgendaTOP.Model.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\bin\Debug\NetCoders.SisAgendaTOP.DataAccess.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\bin\Debug\NetCoders.SisAgendaTOP.Model.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\bin\Debug\EntityFramework.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\obj\Debug\NetCoders.SisAgendaTOP.Repository.csprojResolveAssemblyReference.cache
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\obj\Debug\NetCoders.SisAgendaTOP.Repository.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Repository\obj\Debug\NetCoders.SisAgendaTOP.Repository.pdb

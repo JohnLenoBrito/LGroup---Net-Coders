@@ -1,0 +1,5 @@
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.Model\bin\Debug\SondaIT.CodeFirst.Model.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.Model\bin\Debug\SondaIT.CodeFirst.Model.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.Model\obj\Debug\SondaIT.CodeFirst.Model.csprojResolveAssemblyReference.cache
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.Model\obj\Debug\SondaIT.CodeFirst.Model.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.Model\obj\Debug\SondaIT.CodeFirst.Model.pdb

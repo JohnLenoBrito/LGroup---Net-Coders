@@ -1,0 +1,37 @@
+﻿<!--Todas as telas que serão carregadas
+    dinamicamente com o ANGULAR devem ficar
+    em branco, são fragmentos de telas,
+    TEMPLATES (PARTIAL VIEW, WEB USER CONTROL)-->
+
+<table>
+    <thead>
+        <tr>
+            <th>Exluir</th>
+            <th>Codigo</th>
+            <th>Nome</th>
+            <th>E-Mail</th>
+            <th>Telefone</th>
+            <th>Data de Nascimento</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Lembra muito o FOREACH lé do C#
+            Nome da variavel e a lista que vamos percorrer-->
+        <tr ng-repeat="amigo in listaAmigos">
+            <td>
+                <input type="button" id="excluir" value="Excluir" ng-click="clickExcluir(amigo, $index)" />
+            </td>
+            <td>{{amigo.Codigo}}</td>
+            <td>{{amigo.Nome}}</td>
+            <td>{{amigo.Email}}</td>
+            <td>{{amigo.Telefone}}</td>
+            <td>{{amigo.Data}}</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr ng-show="listaAmigos.length > 0">
+            <td colspan="5">Total: {{listaAmigos.length}}</td>
+        </tr>
+    </tfoot>
+</table>
+<input type="button" id="carregar" value="Carregar" ng-click="clickCarregar()" />

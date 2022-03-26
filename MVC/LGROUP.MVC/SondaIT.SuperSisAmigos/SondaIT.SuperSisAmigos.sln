@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SondaIT.SuperSisAmigos.Data", "SondaIT.SuperSisAmigos.Data\SondaIT.SuperSisAmigos.Data.csproj", "{F52C0F8D-4EDF-4747-B174-61FA588739D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SondaIT.SuperSisAmigos.DomainModel", "SondaIT.SuperSisAmigos.DomainModel\SondaIT.SuperSisAmigos.DomainModel.csproj", "{DDCCE112-87B6-4F26-B360-7EFABC9D9AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SondaIT.SuperSisAmigos.Repository", "SondaIT.SuperSisAmigos.Repository\SondaIT.SuperSisAmigos.Repository.csproj", "{8086B3F7-E076-40BE-B45E-D8E676414FD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SondaIT.SuperSisAmigos.Test", "SondaIT.SuperSisAmigos.Test\SondaIT.SuperSisAmigos.Test.csproj", "{000BDBF1-FA91-40FA-B307-21BC3F74E187}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Data Access", "1 - Data Access", "{D16942D2-788B-4BBB-8A6E-779FA09E72D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Persistent", "2 - Persistent", "{DA0C8524-785A-4603-97B1-AD712BF3F239}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{FA7603FF-8C16-40B1-A742-25D262FD6FE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Unit Test", "5 - Unit Test", "{F6CFB864-6612-4F25-AE6E-1B88E78FAE2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Presentation", "4 - Presentation", "{8DA90462-1D33-4DFB-8544-0576A16A4AEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SondaIT.SuperSisAmigos.UI.Mvc", "SondaIT.SuperSisAmigos.UI.Mvc\SondaIT.SuperSisAmigos.UI.Mvc.csproj", "{AB65BEA5-18DF-463A-B224-4E26C96633A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F52C0F8D-4EDF-4747-B174-61FA588739D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52C0F8D-4EDF-4747-B174-61FA588739D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52C0F8D-4EDF-4747-B174-61FA588739D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52C0F8D-4EDF-4747-B174-61FA588739D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDCCE112-87B6-4F26-B360-7EFABC9D9AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCCE112-87B6-4F26-B360-7EFABC9D9AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDCCE112-87B6-4F26-B360-7EFABC9D9AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDCCE112-87B6-4F26-B360-7EFABC9D9AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8086B3F7-E076-40BE-B45E-D8E676414FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8086B3F7-E076-40BE-B45E-D8E676414FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8086B3F7-E076-40BE-B45E-D8E676414FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8086B3F7-E076-40BE-B45E-D8E676414FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{000BDBF1-FA91-40FA-B307-21BC3F74E187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000BDBF1-FA91-40FA-B307-21BC3F74E187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000BDBF1-FA91-40FA-B307-21BC3F74E187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000BDBF1-FA91-40FA-B307-21BC3F74E187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB65BEA5-18DF-463A-B224-4E26C96633A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB65BEA5-18DF-463A-B224-4E26C96633A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB65BEA5-18DF-463A-B224-4E26C96633A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB65BEA5-18DF-463A-B224-4E26C96633A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F52C0F8D-4EDF-4747-B174-61FA588739D9} = {D16942D2-788B-4BBB-8A6E-779FA09E72D6}
+		{DDCCE112-87B6-4F26-B360-7EFABC9D9AB2} = {FA7603FF-8C16-40B1-A742-25D262FD6FE3}
+		{8086B3F7-E076-40BE-B45E-D8E676414FD6} = {DA0C8524-785A-4603-97B1-AD712BF3F239}
+		{000BDBF1-FA91-40FA-B307-21BC3F74E187} = {F6CFB864-6612-4F25-AE6E-1B88E78FAE2F}
+		{AB65BEA5-18DF-463A-B224-4E26C96633A0} = {8DA90462-1D33-4DFB-8544-0576A16A4AEB}
+	EndGlobalSection
+EndGlobal

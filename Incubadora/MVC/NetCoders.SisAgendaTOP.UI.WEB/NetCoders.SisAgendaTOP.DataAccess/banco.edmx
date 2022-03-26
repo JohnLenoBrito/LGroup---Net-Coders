@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="INCUBADORAModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="INCUBADORAModelStoreContainer">
+          <EntitySet Name="TB_CONTATO" EntityType="INCUBADORAModel.Store.TB_CONTATO" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TB_LOGIN" EntityType="INCUBADORAModel.Store.TB_LOGIN" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TB_SEXO" EntityType="INCUBADORAModel.Store.TB_SEXO" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_TB_CONTATO_TB_SEXO" Association="INCUBADORAModel.Store.FK_TB_CONTATO_TB_SEXO">
+            <End Role="TB_SEXO" EntitySet="TB_SEXO" />
+            <End Role="TB_CONTATO" EntitySet="TB_CONTATO" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="TB_CONTATO">
+          <Key>
+            <PropertyRef Name="ID_CONTATO" />
+          </Key>
+          <Property Name="ID_CONTATO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ID_SEXO" Type="int" Nullable="false" />
+          <Property Name="NM_CONTATO" Type="varchar" Nullable="false" MaxLength="40" />
+          <Property Name="DS_EMAIL" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="NR_TELEFONE" Type="varchar" Nullable="false" MaxLength="15" />
+          <Property Name="DT_NASCIMENTO" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TB_LOGIN">
+          <Key>
+            <PropertyRef Name="ID_LOGIN" />
+          </Key>
+          <Property Name="ID_LOGIN" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NM_NOME" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="DS_SENHA" Type="varchar" Nullable="false" MaxLength="5" />
+        </EntityType>
+        <EntityType Name="TB_SEXO">
+          <Key>
+            <PropertyRef Name="ID_SEXO" />
+          </Key>
+          <Property Name="ID_SEXO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DS_SEXO" Type="char" Nullable="false" MaxLength="9" />
+        </EntityType>
+        <Association Name="FK_TB_CONTATO_TB_SEXO">
+          <End Role="TB_SEXO" Type="INCUBADORAModel.Store.TB_SEXO" Multiplicity="1" />
+          <End Role="TB_CONTATO" Type="INCUBADORAModel.Store.TB_CONTATO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TB_SEXO">
+              <PropertyRef Name="ID_SEXO" />
+            </Principal>
+            <Dependent Role="TB_CONTATO">
+              <PropertyRef Name="ID_SEXO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="INCUBADORAModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="INCUBADORAEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="TB_CONTATO" EntityType="INCUBADORAModel.TB_CONTATO" />
+          <EntitySet Name="TB_SEXO" EntityType="INCUBADORAModel.TB_SEXO" />
+          <AssociationSet Name="FK_TB_CONTATO_TB_SEXO" Association="INCUBADORAModel.FK_TB_CONTATO_TB_SEXO">
+            <End Role="TB_SEXO" EntitySet="TB_SEXO" />
+            <End Role="TB_CONTATO" EntitySet="TB_CONTATO" />
+          </AssociationSet>
+          <EntitySet Name="TB_LOGIN" EntityType="INCUBADORAModel.TB_LOGIN" />
+        </EntityContainer>
+        <EntityType Name="TB_CONTATO">
+          <Key>
+            <PropertyRef Name="ID_CONTATO" />
+          </Key>
+          <Property Name="ID_CONTATO" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="ID_SEXO" Type="Int32" Nullable="false" />
+          <Property Name="NM_CONTATO" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
+          <Property Name="DS_EMAIL" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="NR_TELEFONE" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="DT_NASCIMENTO" Type="DateTime" Nullable="false" Precision="0" />
+          <NavigationProperty Name="TB_SEXO" Relationship="INCUBADORAModel.FK_TB_CONTATO_TB_SEXO" FromRole="TB_CONTATO" ToRole="TB_SEXO" />
+        </EntityType>
+        <EntityType Name="TB_SEXO">
+          <Key>
+            <PropertyRef Name="ID_SEXO" />
+          </Key>
+          <Property Name="ID_SEXO" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="DS_SEXO" Type="String" Nullable="false" MaxLength="9" Unicode="false" FixedLength="true" />
+          <NavigationProperty Name="TB_CONTATO" Relationship="INCUBADORAModel.FK_TB_CONTATO_TB_SEXO" FromRole="TB_SEXO" ToRole="TB_CONTATO" />
+        </EntityType>
+        <Association Name="FK_TB_CONTATO_TB_SEXO">
+          <End Role="TB_SEXO" Type="INCUBADORAModel.TB_SEXO" Multiplicity="1" />
+          <End Role="TB_CONTATO" Type="INCUBADORAModel.TB_CONTATO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TB_SEXO">
+              <PropertyRef Name="ID_SEXO" />
+            </Principal>
+            <Dependent Role="TB_CONTATO">
+              <PropertyRef Name="ID_SEXO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="TB_LOGIN">
+          <Key>
+            <PropertyRef Name="ID_LOGIN" />
+          </Key>
+          <Property Type="Int32" Name="ID_LOGIN" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="NM_NOME" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="DS_SENHA" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="INCUBADORAModelStoreContainer" CdmEntityContainer="INCUBADORAEntities">
+          <EntitySetMapping Name="TB_CONTATO">
+            <EntityTypeMapping TypeName="INCUBADORAModel.TB_CONTATO">
+              <MappingFragment StoreEntitySet="TB_CONTATO">
+                <ScalarProperty Name="ID_CONTATO" ColumnName="ID_CONTATO" />
+                <ScalarProperty Name="ID_SEXO" ColumnName="ID_SEXO" />
+                <ScalarProperty Name="NM_CONTATO" ColumnName="NM_CONTATO" />
+                <ScalarProperty Name="DS_EMAIL" ColumnName="DS_EMAIL" />
+                <ScalarProperty Name="NR_TELEFONE" ColumnName="NR_TELEFONE" />
+                <ScalarProperty Name="DT_NASCIMENTO" ColumnName="DT_NASCIMENTO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TB_SEXO">
+            <EntityTypeMapping TypeName="INCUBADORAModel.TB_SEXO">
+              <MappingFragment StoreEntitySet="TB_SEXO">
+                <ScalarProperty Name="ID_SEXO" ColumnName="ID_SEXO" />
+                <ScalarProperty Name="DS_SEXO" ColumnName="DS_SEXO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TB_LOGIN">
+            <EntityTypeMapping TypeName="INCUBADORAModel.TB_LOGIN">
+              <MappingFragment StoreEntitySet="TB_LOGIN">
+                <ScalarProperty Name="DS_SENHA" ColumnName="DS_SENHA" />
+                <ScalarProperty Name="NM_NOME" ColumnName="NM_NOME" />
+                <ScalarProperty Name="ID_LOGIN" ColumnName="ID_LOGIN" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

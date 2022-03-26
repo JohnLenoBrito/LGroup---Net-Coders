@@ -1,0 +1,17 @@
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\bin\Debug\SondaIT.CodeFirst.FluentAPI.DataAccess.dll.config
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\bin\Debug\SondaIT.CodeFirst.FluentAPI.DataAccess.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\bin\Debug\SondaIT.CodeFirst.FluentAPI.DataAccess.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\obj\Debug\SondaIT.CodeFirst.FluentAPI.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\obj\Debug\SondaIT.CodeFirst.FluentAPI.DataAccess.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\obj\Debug\SondaIT.CodeFirst.FluentAPI.DataAccess.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\bin\Debug\SondaIT.CodeFirst.FluentAPI.Model.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\bin\Debug\SondaIT.CodeFirst.FluentAPI.Model.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\obj\Debug\SondaIT.CodeFirst.FluentAPI.DataAccess.Migrations.InitialCreate.resources
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\obj\Debug\SondaIT.CodeFirst.FluentAPI.DataAccess.csproj.GenerateResource.Cache
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\obj\Debug\SondaIT.CodeFirst.FluentAPI.DataAccess.Migrations.EnderecoCepBackup.resources
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\obj\Debug\SondaIT.CodeFirst.FluentAPI.DataAccess.Migrations.CpfRgBackup.resources
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.DataAccess\obj\Debug\SondaIT.CodeFirst.FluentAPI.DataAccess.Migrations.PisBackup.resources

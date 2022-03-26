@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="JOHNModelStoreContainer" CdmEntityContainer="JOHNEntities">
+    <EntitySetMapping Name="TB_AMIGO">
+      <EntityTypeMapping TypeName="JOHNModel.TB_AMIGO">
+        <MappingFragment StoreEntitySet="TB_AMIGO">
+          <ScalarProperty Name="ID_AMIGO" ColumnName="ID_AMIGO" />
+          <ScalarProperty Name="ID_SEXO" ColumnName="ID_SEXO" />
+          <ScalarProperty Name="NM_AMIGO" ColumnName="NM_AMIGO" />
+          <ScalarProperty Name="DS_EMAIL" ColumnName="DS_EMAIL" />
+          <ScalarProperty Name="NR_TELEFONE" ColumnName="NR_TELEFONE" />
+          <ScalarProperty Name="DT_NASCIMENTO" ColumnName="DT_NASCIMENTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_SEXO">
+      <EntityTypeMapping TypeName="JOHNModel.TB_SEXO">
+        <MappingFragment StoreEntitySet="TB_SEXO">
+          <ScalarProperty Name="ID_SEXO" ColumnName="ID_SEXO" />
+          <ScalarProperty Name="DS_SEXO" ColumnName="DS_SEXO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="CADASTRAR_AMIGO" FunctionName="JOHNModel.Store.CADASTRAR_AMIGO" />
+    <FunctionImportMapping FunctionImportName="LISTAR_AMIGOS" FunctionName="JOHNModel.Store.LISTAR_AMIGOS" />
+    <FunctionImportMapping FunctionImportName="AMIGOS_POR_SEXO" FunctionName="JOHNModel.Store.AMIGOS_POR_SEXO">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="JOHNModel.AMIGOS_POR_SEXO_Result">
+          <ScalarProperty Name="QUANTIDADE" ColumnName="QUANTIDADE" />
+          <ScalarProperty Name="DS_SEXO" ColumnName="DS_SEXO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

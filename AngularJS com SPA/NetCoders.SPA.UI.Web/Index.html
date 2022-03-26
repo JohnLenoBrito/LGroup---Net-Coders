@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<!-- SPA não é uma tecnologia, muito menos um padrão de projeto
+    é estilo de desenvolvimento Web (WEB MODERNA)
+    Só vamos para o servidor pra buscar dados (JSON, XML, SOAP)
+    Não buscamos CONTEUDO (HTML, CSS, JS)
+    Pra montar toda essa nova estrutura de desenvolvimento WEB
+    vamos utilizar o FRAMEWORK ANGULAR
+    Essa INDEX é como se fose uma MASTER PAGE ou LAYOUT PAGE
+    Nossa pagina mestre-->
+<!-- O angular te seus própios ATRIBUTOS (DIRETIVAS) são todos
+    os atributos que começam com NG
+    NG-APP -> Serve pra rodar uma aplicação em ANGULAR dentro
+    de uma pagina-->
+<body ng-app="SISAMIGOS">
+
+    <header>
+        <div>
+            <div>
+                <input type="button" id="listar" value="Lista de Amigos" ng-click="redirecionar('/listar')" />
+                <input type="button" id="cadastrar" value="Cadastro de Amigos" ng-click="redirecionar('/cadastrar')"/>
+            </div>
+            <h1>..:: TITULO DA PÁGINA ::..</h1>
+        </div>
+    </header>
+
+    <section>
+        <!-- Temos um diretiva do Angular o NG-VIEW
+            é atraves dela que a pagina sabe onde descarrgar
+            o html da pagina que estamos navegando
+            Lembra muito o PLACEHOLDER ou RENDERBODY-->
+        <div ng-view>
+
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p>Todos os direitos reservados ao BOZO</p>
+        </div>
+    </footer>
+
+    <!--O angular lembra muito o JQUERY tem o KERNEL (BASE)
+        E diversos modulos (complementares = plugins) que
+        rodam em cima da BASE-->
+    <script src="Scripts/angular.min.js"></script>
+
+    <!-- Esse modulo do angular possui objetos que nos auxilia
+        a difinir e acessas as ROTAS-->
+    <script src="Scripts/angular-route.min.js"></script>
+
+    <!-- Subimos para a pagina o arquivo de inicialização
+        do angular-->
+    <script src="App/inicializacao.js"></script>
+
+    <!-- Subimos para a pagina o arquivo de programação
+        da classe controladora de AMIGOS-->
+    <script src="App/Controllers/amigoController.js"></script>
+
+</body>
+</html>

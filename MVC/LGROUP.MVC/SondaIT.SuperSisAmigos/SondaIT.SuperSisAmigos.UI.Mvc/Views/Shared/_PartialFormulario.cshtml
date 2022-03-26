@@ -1,0 +1,50 @@
+﻿<script>
+    jQuery(function ($) {
+        $("#DATA_NASCIMENTO").mask("99/99/9999", { placeholder: "dd/MM/yyyy" });
+        $("#RG").mask("99.999.999-9");
+        $("#CPF").mask("999.999.999-99");
+        $("#TELEFONE").mask("(99)9999-9999");
+    });
+
+</script>
+
+@using SondaIT.SuperSisAmigos.DomainModel.Models
+
+@model AmigosModel
+
+
+<div>
+    @Html.LabelFor(c => c.NOME)
+    @Html.TextBoxFor(c => c.NOME, new { @class = "form-control" })
+</div>
+<div>
+    @Html.LabelFor(c => c.RG)
+    @Html.TextBoxFor(c => c.RG, new { @class = "form-control" })
+</div>
+<div>
+    @Html.LabelFor(c => c.CPF)
+    @Html.TextBoxFor(c => c.CPF, new { @class = "form-control" })
+</div>
+<div>
+    @Html.LabelFor(c => c.DATA_NASCIMENTO)
+    @Html.TextBoxFor(c => c.DATA_NASCIMENTO, new { @class = "form-control" })
+</div>
+<div>
+    @Html.LabelFor(c => c.EMAIL)
+    @Html.TextBoxFor(c => c.EMAIL, new { @class = "form-control" })
+</div>
+<div>
+    @Html.LabelFor(c => c.TELEFONE)
+    @Html.TextBoxFor(c => c.TELEFONE, new { @class = "form-control" })
+</div>
+<div>
+    @Html.LabelFor(c => c.ID_ESTADO_CIVIL)
+    @Html.DropDownListFor(c => c.ID_ESTADO_CIVIL, ViewBag.listaEstadoCivil as SelectList, new { @class = "form-control" })
+
+</div>
+<div>
+    @Html.LabelFor(c => c.ID_SEXO)
+    @Html.DropDownListFor(c => c.ID_SEXO, ViewBag.listaSexo as SelectList, new { @class = "form-control" })
+</div>
+
+

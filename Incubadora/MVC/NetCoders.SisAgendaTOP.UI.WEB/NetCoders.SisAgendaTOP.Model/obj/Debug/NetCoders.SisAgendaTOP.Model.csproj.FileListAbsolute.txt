@@ -1,0 +1,15 @@
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Model\bin\Debug\NetCoders.SisAgendaTOP.Model.dll
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Model\bin\Debug\NetCoders.SisAgendaTOP.Model.pdb
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Model\obj\Debug\NetCoders.SisAgendaTOP.Model.csprojResolveAssemblyReference.cache
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Model\obj\Debug\NetCoders.SisAgendaTOP.Model.dll
+C:\Users\john.oliveira\Desktop\Incubadora\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Model\obj\Debug\NetCoders.SisAgendaTOP.Model.pdb
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Model\bin\Debug\NetCoders.SisAgendaTOP.Model.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Model\bin\Debug\NetCoders.SisAgendaTOP.Model.pdb
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Model\obj\Debug\NetCoders.SisAgendaTOP.Model.csprojResolveAssemblyReference.cache
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Model\obj\Debug\NetCoders.SisAgendaTOP.Model.dll
+C:\Users\john.oliveira\Desktop\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Model\obj\Debug\NetCoders.SisAgendaTOP.Model.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Model\bin\Debug\NetCoders.SisAgendaTOP.Model.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Model\bin\Debug\NetCoders.SisAgendaTOP.Model.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Model\obj\Debug\NetCoders.SisAgendaTOP.Model.csprojResolveAssemblyReference.cache
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Model\obj\Debug\NetCoders.SisAgendaTOP.Model.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\MVC\NetCoders.SisAgendaTOP.UI.WEB\NetCoders.SisAgendaTOP.Model\obj\Debug\NetCoders.SisAgendaTOP.Model.pdb

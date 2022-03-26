@@ -1,0 +1,68 @@
+﻿@*@using NetCoders.SisAgendaTOP.Model;
+@using NetCoders.SisAgendaTOP.UI.WEB.Helpers;*@
+@model ContatoMOD
+
+@{
+    ViewBag.Title = "Cadastrar Contatos";
+    Layout = "~/Views/Shered/_LayoutPadrao.cshtml";
+}
+<script>
+    $(function () {
+        $("#consultar").click(function () {
+            var telefone = $("#Telefone").val();
+
+            $.ajax({
+                url: "http://localhost:47939/api/Contato/TelefoneJaExiste",
+                //o tipo tem que ser o mesmo do metodo que é passado ^
+                type: "GET",
+                data: { numero: telefone },
+                success: function (retorno) {
+                    if (retorno) {
+                        bootbox.alert("Esse telefone já existe!");
+                        $("#cadastrar").attr("disabled", "disabled");
+                    } else {
+                        $("#cadastrar").removeAttr("disabled", "disabled");
+                    }
+                }
+            });
+        });
+    });
+
+    $(function () {
+        $("#Email").blur(function () {
+            //(This) -> este ou atual
+            var texto = $(this).val();
+
+            $.ajax({
+                url: "http://localhost:47939/api/Contato/EmailJaExiste",
+                //o tipo tem que ser o mesmo do metodo que é passado ^
+                type: "GET",
+                data: { email: texto },
+                success: function (retorno) {
+                    if (retorno) {
+                        bootbox.alert("Esse email já existe!");
+                        $("#cadastrar").attr("disabled", "disabled");
+                    } else {
+                        $("cadastrar").removeAttr("disabled", "disabled");
+                    }
+                }
+            });
+        });
+    });
+</script>
+<fieldset>
+    <legend>Informações Cadastrais</legend>
+
+    @using (Html.BeginForm())
+    {
+        @Html.Partial("_PartialContato");
+        
+        @*<input type="reset" name="limpar" id="limpar" value="Limpar" />*@
+        @Html.Button("reset", "limpar", "limpar", "Limpar", "btn btn-primary")
+
+        @*<input type="submit" name="cadastrar" id="cadastrar" value="Cadastrar" />*@
+        @Html.Button("submit", "cadastrar", "cadastrar", "Cadastrar", "btn btn-success")
+        @Html.Br()
+    }
+
+</fieldset>

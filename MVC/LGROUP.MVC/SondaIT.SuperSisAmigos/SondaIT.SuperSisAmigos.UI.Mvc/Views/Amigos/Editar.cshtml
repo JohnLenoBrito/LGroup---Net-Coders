@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Editar";
+    Layout = "~/Views/Shared/_LayoutRoot.cshtml";
+}
+
+@using SondaIT.SuperSisAmigos.DomainModel.Models
+
+@model AmigosModel
+
+<h2>Editar</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        @Html.LabelFor(c => c.ID)
+        @Html.TextBoxFor(c => c.ID)
+    </div>
+
+    @*para não ficar criando campos repetidos desnecessariamente criamos um Partial View*@
+    @Html.Partial("_PartialFormulario")
+
+    <br />
+
+    <div>
+        <input type="submit" name="editar" formaction="/Amigos/Editar" id="editar" value="EDITAR" />
+    </div>
+    
+
+}

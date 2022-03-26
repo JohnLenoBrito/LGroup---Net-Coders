@@ -1,0 +1,93 @@
+﻿@{
+    Layout = null;
+}
+@* PASSANDO O CAMINHO DA CLASSE MODELO *@
+@model SondaIT.SisAmigos.UI.Mvc.Models.AmigosModel
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Editar</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/MyStyles/ComponentesAdicionais.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <h1>EDITAR AMIGO</h1>
+        <br />
+        <form method="POST">
+            <fieldset>
+                <legend>..Dados..</legend>
+                <br />
+                <div>
+                    <label>ID</label>
+                </div>
+                <div>
+                    <input type="text" name="ID" id="ID" class="form-control input" value="@Model.ID" />
+                </div>
+                <div>
+                    <label>Nome</label>
+                </div>
+                <div>
+                    <input name="NOME" id="NOME" type="text" class="form-control input" value="@Model.NOME"/>
+                </div>
+                <div>
+                    <label>RG</label>
+                </div>CPF
+                <div>
+                    <input name="RG" id="RG" type="text" class="form-control input" value="@Model.RG"/>
+                </div>
+                <div>
+                    <label>CPF</label>
+                </div>
+                <div>
+                    <input name="CPF" id="CPF" type="text" class="form-control input" value="@Model.CPF"/>
+                </div>
+                <div>
+                    <label>DATA NASCIMENTO</label>
+                </div>
+                <div>
+                    <input name="DATA_NASCIMENTO" id="DATA_NASCIMENTO" type="text" class="form-control input" value="@Model.DATA_NASCIMENTO" />
+                </div>
+                <div>
+                    <label>E-MAIL</label>
+                </div>
+                <div>
+                    <input name="EMAIL" id="EMAIL" type="text" class="form-control input" value="@Model.EMAIL" />
+                </div>
+                <div>
+                    <label>ESTADO CIVIL</label>
+                </div>
+                <div>
+                    <select name="ESTADO_CIVIL" id="ESTADO_CIVIL" type="text" class="form-control input" >
+                        <option value="@Model.ESTADO_CIVIL">@Model.ESTADO_CIVIL</option>
+                        <option value="Casado">Casado</option>
+                        <option value="Solteiro">Solteiro</option>
+                        <option value="Viuvo">Viuvo</option>
+                        <option value="Na Pista">Na Pista</option>
+                    </select>
+                </div>
+                <div>
+                    <label>SEXO</label>
+                </div>
+                <div>
+                    <select name="SEXO" id="SEXO" type="text" class="form-control input">
+                        <option value="@Model.SEXO">@Model.SEXO</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                    </select>
+                </div>
+                <br />
+                <div>
+                    <input type="submit" name="atualizar" value="ATUALIZAR" class="btn btn-warning" formaction="/Amigos/Update" />
+                    &nbsp;
+                    &nbsp;
+                    <input type="submit" name="deletar" value="DELETAR" class="btn btn-danger" formaction="/Amigos/Delete" />
+
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

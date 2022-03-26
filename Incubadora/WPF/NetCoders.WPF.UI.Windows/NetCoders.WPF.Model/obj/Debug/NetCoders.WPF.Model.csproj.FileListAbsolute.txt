@@ -1,0 +1,5 @@
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\WPF\NetCoders.WPF.UI.Windows\NetCoders.WPF.Model\bin\Debug\NetCoders.WPF.Model.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\WPF\NetCoders.WPF.UI.Windows\NetCoders.WPF.Model\bin\Debug\NetCoders.WPF.Model.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\WPF\NetCoders.WPF.UI.Windows\NetCoders.WPF.Model\obj\Debug\NetCoders.WPF.Model.csprojResolveAssemblyReference.cache
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\WPF\NetCoders.WPF.UI.Windows\NetCoders.WPF.Model\obj\Debug\NetCoders.WPF.Model.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Incubadora\WPF\NetCoders.WPF.UI.Windows\NetCoders.WPF.Model\obj\Debug\NetCoders.WPF.Model.pdb

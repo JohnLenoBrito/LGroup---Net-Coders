@@ -1,0 +1,5 @@
+C:\Users\joliveira\Desktop\LGROUP.MVC\SondaIT.SuperSisAmigos\SondaIT.SuperSisAmigos.DomainModel\bin\Debug\SondaIT.SuperSisAmigos.DomainModel.dll
+C:\Users\joliveira\Desktop\LGROUP.MVC\SondaIT.SuperSisAmigos\SondaIT.SuperSisAmigos.DomainModel\bin\Debug\SondaIT.SuperSisAmigos.DomainModel.pdb
+C:\Users\joliveira\Desktop\LGROUP.MVC\SondaIT.SuperSisAmigos\SondaIT.SuperSisAmigos.DomainModel\obj\Debug\SondaIT.SuperSisAmigos.DomainModel.csprojResolveAssemblyReference.cache
+C:\Users\joliveira\Desktop\LGROUP.MVC\SondaIT.SuperSisAmigos\SondaIT.SuperSisAmigos.DomainModel\obj\Debug\SondaIT.SuperSisAmigos.DomainModel.dll
+C:\Users\joliveira\Desktop\LGROUP.MVC\SondaIT.SuperSisAmigos\SondaIT.SuperSisAmigos.DomainModel\obj\Debug\SondaIT.SuperSisAmigos.DomainModel.pdb

@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Lista de Contatos</title>
+
+    <!--Importamos os scripts do JQuery-->
+    <script src="Scripts/jquery-2.1.3.min.js"></script>
+    <script src="Scripts/jquery-ui-1.11.2.min.js"></script>
+    <script src="Scripts/jquery.maskedinput.min.js"></script>
+    <!--Importamos os scripts do Bootstrap-->
+    <script src="Scripts/bootstrap.min.js"></script>
+    <!--Importamos as bibliotecas de CSS-->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.cerulean.min.css" rel="stylesheet" />
+
+    <script>
+        table.addClass("enhanced");
+        var container = $('<div class="table-menu table-menu-hidden"><ul /></div>');
+
+        $("thead th").each(function (i) {
+            var th = $(this),
+                classes = th.attr("class");
+            if (!id) {
+                id = ("col-") + i;
+                th.attr("id", id);
+            };
+            $("tbody tr").each(function () {
+                var cell = $(this).find("th, td").eq(i);
+                var cell = $(this).find("th, td").eq(i);
+                if (classes) { cell.addClass(classes); };
+            });
+            if (!th.is(".persist")) {
+                var toggle = $('<li><input type="checkbox" name="toggle-cols" id="toggle-col-' + i + '" value="' + id + '" /> <label for="toggle-col-' + i + '">' + th.text() + '</label></li>');
+                container.find("ul").append(toggle);
+                toggle.find("input")
+                .change(function () {
+                    var input = $(this),
+                        val = input.val(),
+                        cols = $("#" + val + ", [headers=" + val + "]");
+                    if (input.is(":checked")) { cols.show(); }
+                    else { cols.hide(); };
+                })
+                .bind("updateCheck", function () {
+                    if (th.css("display") == "table-cell") {
+                        $(this).attr("checked", true);
+                    }
+                    else {
+                        $(this).attr("checked", false);
+                    };
+                })
+                .trigger("updateCheck");
+            };
+        });
+
+        $(window).bind("orientationchange resize", function () {
+            container.find("input").trigger("updateCheck");
+        });
+
+        var menuWrapper = $('<div class="table-menu-wrapper" />'),
+            menuBtn = $('<a href="#" class="table-menu-btn">Display</a>');
+
+        menuBtn.click(function () {
+            container.toggleClass("table-menu-hidden");
+            return false;
+        });
+
+        menuWrapper.append(menuBtn).append(container);
+        table.before(menuWrapper);
+
+        $(document).click(function (e) {
+            if (!$(e.target).is(container) && !$(e.target).is(container.find("*"))) {
+                container.addClass("table-menu-hidden");
+            }
+        });
+    </script>
+
+    <style>
+        body {
+            padding-bottom: 50px;
+        }
+
+        table {
+            width: 100%;
+            font-size: 1.2em;
+        }
+
+        th thead {
+            white-space: nowrap;
+            border-bottom: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: .5em 1em;
+            text-align: right;
+        }
+
+            th:first-child,
+            td:first-child {
+                text-align: left;
+            }
+
+        tbody th, td {
+            border-bottom: 1px solid #e6e6e6;
+        }
+
+        .enhanced th,
+        .enhanced td {
+            display: none;
+        }
+
+            .enhanced th.essential,
+            .enhanced td.essential {
+                display: table-cell;
+            }
+
+        @media screen and (min-width: 500px) {
+            .enhanced th.optional,
+            .enhanced td.optional {
+                display: table-cell;
+            }
+        }
+
+        @media screen and (min-width: 800px) {
+            .enhanced th,
+            .enhanced td {
+                display: table-cell;
+            }
+        }
+
+        .table-menu-wrapper {
+            position: absolute;
+            top: -3em;
+            right: 0;
+        }
+
+        .table-menu {
+            position: absolute;
+            right: 0;
+            left: auto;
+            /*background-color: #fff;*/
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 1.2em;
+            width: 12em;
+        }
+
+        .table-menu-hidden {
+            left: -999em;
+            right: auto;
+        }
+
+        .table-wrapper {
+            position: relative;
+            margin: 5em 5%;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <img src="Content/Images/logo.png" />
+        <!--<nav>
+            <ul>
+                <li><a href="Cadastrar.html">Cadastro de Contatos</a></li>
+                <li><a href="Listar.html">Lista de Contatos</a></li>
+            </ul>
+        </nav>-->
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="http://www.netcoders.com.br">NetCoders</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="Cadastrar.html">Cadastro de Contatos</a></li>
+                        <li><a href="Listar.html">Lista de Contatos</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <hi>Lista de contatos</hi>
+    </header>
+    <section>
+        <fieldset>
+            <legend>Contatos Ativos</legend>
+            <div class="table-menu-wrapper">
+                <a href="#" class="table-menu-btn">Colunas</a>
+                <div class="table-menu">
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="nomeCol" id="nomeCol" value="co-1" />
+                            <label for="nomeCol">Nome</label>
+                        </li>
+                        <li class="optional">
+                            <input type="checkbox" name="emailCol" id="emailCol" value="co-2" />
+                            <label for="emailCol">E-Mail</label>
+                        </li>
+                        <li class="optional">
+                            <input type="checkbox" name="telefoneCol" id="telefoneCol" value="co-3" />
+                            <label for="telefoneCol">Telefone</label>
+                        </li>
+                        <li class="optional">
+                            <input type="checkbox" name="dataNascimentoCol" id="dataNascimentoCol" value="co-4" />
+                            <label for="dataNascimentoCol">Data Nascimento</label>
+                        </li>
+                        <li class="optional">
+                            <input type="checkbox" name="sexoCol" id="sexoCol" value="co-5" />
+                            <label for="emailCol">Sexo</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <table class="table table-hover" id="TabelaValores">
+                    <!--<table class="table table-striped">-->
+                    <thead>
+                        <tr>
+                            <th class="essential persist">Código</th>
+                            <th class="essential">Nome</th>
+                            <th class="optional">E-Mail</th>
+                            <th class="essential">Telefone</th>
+                            <th class="optional">Data de Nascimento</th>
+                            <th class="optional">Sexo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>John Leno Brito</td>
+                            <td>johnleno.brito@gmail.com</td>
+                            <td>(11) 0000-0000</td>
+                            <td>06/03/1994</td>
+                            <td>Masculino</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Joao Leno Brito</td>
+                            <td>johnleno.brito@gmail.com</td>
+                            <td>(11) 0000-0000</td>
+                            <td>06/03/1994</td>
+                            <td>Masculino</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Jose Leno Brito</td>
+                            <td>johnleno.brito@gmail.com</td>
+                            <td>(11) 0000-0000</td>
+                            <td>06/03/1994</td>
+                            <td>Masculino</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Joaquin Leno Brito</td>
+                            <td>johnleno.brito@gmail.com</td>
+                            <td>(11) 0000-0000</td>
+                            <td>06/03/1994</td>
+                            <td>Masculino</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Jean Leno Brito</td>
+                            <td>johnleno.brito@gmail.com</td>
+                            <td>(11) 0000-0000</td>
+                            <td>06/03/1994</td>
+                            <td>Masculino</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </fieldset>
+    </section>
+    <footer>
+        <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+            <div class="container">
+                <p>&copy; Todos os direitos reservados ao <strong><mark>John Leno Brito</mark></strong></p>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>

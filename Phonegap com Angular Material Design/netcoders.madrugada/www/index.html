@@ -1,0 +1,88 @@
+﻿<!-- A proxima WEB a 3.0 vai ser caracterizada por 2 novos recursos
+    1) desenvolvimento SPA
+    2) Criação e Exportação de Componentes WEB
+       Podemos criar nossas próprias TAG <ZINA>, <XNXX> <TWO_GIRLS_1_CUP> -->
+
+<!-- phonegap server no DOS dentro da pasta do www do projeto (para criar o servidor e testar no cel) -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <!-- A GOOGLE está tentando padronizar o layout dos aplicativos (Todo mundo tem que fazer igual) com a mesma carinha através do MATERIAL DESIGN
+         Material Design é um conjunto de principios, filosofias e tecnicas que nos ajudam a desenvolver uma UI bunitona e agradavel por usuario a grosso modo
+         A ideia é trazer o mundo real bordas, sombras, espaçamentos e movimentos pra dentro dos campos inclusive temos diversas bibliotecas no mercado que usam os
+         Principios e boas práticas do GOOGLE MATERIAL DESIGN por exemplo MATERALIZE CSS, IONIC MATERIAL DESING, BOOTSTRAP MATERIAL DESING -->
+    <link href="node_modules/angular-material/angular-material.min.css" rel="stylesheet" />
+
+    <!-- Baixamos um KIT de icones para angular material designer
+         O angular Material Designer por padrão não vem com ICONES -->
+    <link href="node_modules/angular-material-icons/angular-material-icons.css" rel="stylesheet" />
+</head>
+<!-- Pra colocar a aplicação em angular pra rodar DENTRO da pagina, temos que usar a DIRETIVA NG-APP
+     O nome bunitão dos atributos do angular é DIRETIVA -->
+<body ng-app="MADRUGADA">
+    <header>
+        <div>
+            <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
+                <md-toolbar class="md-theme-indigo">
+                    <h1 class="md-toolbar-tools">SisAmigos 1.0</h1>
+                </md-toolbar>
+                <md-content layout-padding>
+                    <md-button ng-click="menuEsquerdo()" ng-href="#/home" class="md-primary" hide-gt-md>
+                        Home
+                    </md-button>
+                    <br />
+                    <md-button ng-click="menuEsquerdo()" ng-href="#/amigo/listar" class="md-primary" hide-gt-md>
+                        Listar Amigos
+                    </md-button>
+                    <br />
+                    <md-button ng-click="menuEsquerdo()" ng-href="#/amigo/cadastrar" class="md-primary" hide-gt-md>
+                        Cadastrar Amigos
+                    </md-button>
+                    <p hide-md show-gt-md>
+                        This sidenav is locked open on your device. To go back to the default behavior,
+                        narrow your display.
+                    </p>
+                </md-content>
+            </md-sidenav>
+            <md-toolbar>
+                <div class="md-toolbar-tools">
+                    <md-button ng-click="menuEsquerdo()" class="md-icon-button" aria-label="Settings">
+                        <ng-md-icon icon="reorder" style="fill: white" size="30"></ng-md-icon>
+                    </md-button>
+                    <h2>
+                        <span>SISAMIGOS 1.0</span>
+                    </h2>
+                </div>
+            </md-toolbar>
+        </div>
+    </header>
+
+    <section>
+        <!-- Apos vincular a aplicação em angular dentro dessa pagina, temos que falar o local dela, que vamos exibir as paginas filhas, pra isso utilizamos a DIRETIVA NG-VIEW -->
+        <div ng-view>
+
+        </div>
+    </section>
+
+    <!-- Importamos todos os arquivos pra dentro da pagina principal (PAGINA PAI)
+        INDEX (PAGINA PAI)
+        LISTAR, HOME, CADASTRAR (PAGINAS FILHAS) -->
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+
+    <!-- Importamos as 3 bibliotecas do material design -->
+    <script src="node_modules/angular-material/angular-material.min.js"></script>
+    <script src="node_modules/angular-animate/angular-animate.min.js"></script>
+    <script src="node_modules/angular-aria/angular-aria.min.js"></script>
+
+    <!-- Importamos o JS para carrgar os ICONES -->
+    <script src="node_modules/angular-material-icons/angular-material-icons.min.js"></script>
+
+    <script src="app/inicializacao.js"></script>
+    <script src="app/controllers/homeController.js"></script>
+    <script src="app/controllers/amigoController.js"></script>
+</body>
+</html>

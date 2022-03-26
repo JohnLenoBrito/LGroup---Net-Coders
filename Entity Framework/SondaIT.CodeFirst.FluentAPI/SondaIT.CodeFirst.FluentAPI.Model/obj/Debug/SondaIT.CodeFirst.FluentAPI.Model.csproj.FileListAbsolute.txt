@@ -1,0 +1,5 @@
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.Model\bin\Debug\SondaIT.CodeFirst.FluentAPI.Model.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.Model\bin\Debug\SondaIT.CodeFirst.FluentAPI.Model.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.Model\obj\Debug\SondaIT.CodeFirst.FluentAPI.Model.csprojResolveAssemblyReference.cache
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.Model\obj\Debug\SondaIT.CodeFirst.FluentAPI.Model.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.FluentAPI\SondaIT.CodeFirst.FluentAPI.Model\obj\Debug\SondaIT.CodeFirst.FluentAPI.Model.pdb

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="JOHNModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2005" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="TB_AMIGO">
+          <Key>
+            <PropertyRef Name="ID_AMIGO" />
+          </Key>
+          <Property Name="ID_AMIGO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ID_SEXO" Type="int" Nullable="false" />
+          <Property Name="NM_AMIGO" Type="varchar" MaxLength="40" Nullable="false" />
+          <Property Name="DS_EMAIL" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="NR_TELEFONE" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="DT_NASCIMENTO" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TB_SEXO">
+          <Key>
+            <PropertyRef Name="ID_SEXO" />
+          </Key>
+          <Property Name="ID_SEXO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DS_SEXO" Type="varchar" MaxLength="9" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_TB_AMIGO_TB_SEXO">
+          <End Role="TB_SEXO" Type="Self.TB_SEXO" Multiplicity="1" />
+          <End Role="TB_AMIGO" Type="Self.TB_AMIGO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TB_SEXO">
+              <PropertyRef Name="ID_SEXO" />
+            </Principal>
+            <Dependent Role="TB_AMIGO">
+              <PropertyRef Name="ID_SEXO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="AMIGOS_POR_SEXO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="CADASTRAR_AMIGO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="pID_SEXO" Type="int" Mode="In" />
+          <Parameter Name="pNM_AMIGO" Type="varchar" Mode="In" />
+          <Parameter Name="pDS_EMAIL" Type="varchar" Mode="In" />
+          <Parameter Name="pNR_TELEFONE" Type="varchar" Mode="In" />
+          <Parameter Name="pDT_NASCIMENTO" Type="datetime" Mode="In" />
+        </Function>
+        <Function Name="LISTAR_AMIGOS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="JOHNModelStoreContainer">
+          <EntitySet Name="TB_AMIGO" EntityType="Self.TB_AMIGO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TB_SEXO" EntityType="Self.TB_SEXO" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_TB_AMIGO_TB_SEXO" Association="Self.FK_TB_AMIGO_TB_SEXO">
+            <End Role="TB_SEXO" EntitySet="TB_SEXO" />
+            <End Role="TB_AMIGO" EntitySet="TB_AMIGO" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="JOHNModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="TB_AMIGO">
+          <Key>
+            <PropertyRef Name="ID_AMIGO" />
+          </Key>
+          <Property Name="ID_AMIGO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ID_SEXO" Type="Int32" Nullable="false" />
+          <Property Name="NM_AMIGO" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DS_EMAIL" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NR_TELEFONE" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DT_NASCIMENTO" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="TB_SEXO" Relationship="Self.FK_TB_AMIGO_TB_SEXO" FromRole="TB_AMIGO" ToRole="TB_SEXO" />
+        </EntityType>
+        <EntityType Name="TB_SEXO">
+          <Key>
+            <PropertyRef Name="ID_SEXO" />
+          </Key>
+          <Property Name="ID_SEXO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DS_SEXO" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="TB_AMIGO" Relationship="Self.FK_TB_AMIGO_TB_SEXO" FromRole="TB_SEXO" ToRole="TB_AMIGO" />
+        </EntityType>
+        <Association Name="FK_TB_AMIGO_TB_SEXO">
+          <End Role="TB_SEXO" Type="Self.TB_SEXO" Multiplicity="1" />
+          <End Role="TB_AMIGO" Type="Self.TB_AMIGO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TB_SEXO">
+              <PropertyRef Name="ID_SEXO" />
+            </Principal>
+            <Dependent Role="TB_AMIGO">
+              <PropertyRef Name="ID_SEXO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="JOHNEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TB_AMIGO" EntityType="Self.TB_AMIGO" />
+          <EntitySet Name="TB_SEXO" EntityType="Self.TB_SEXO" />
+          <AssociationSet Name="FK_TB_AMIGO_TB_SEXO" Association="Self.FK_TB_AMIGO_TB_SEXO">
+            <End Role="TB_SEXO" EntitySet="TB_SEXO" />
+            <End Role="TB_AMIGO" EntitySet="TB_AMIGO" />
+          </AssociationSet>
+          <FunctionImport Name="CADASTRAR_AMIGO">
+            <Parameter Name="pID_SEXO" Mode="In" Type="Int32" />
+            <Parameter Name="pNM_AMIGO" Mode="In" Type="String" />
+            <Parameter Name="pDS_EMAIL" Mode="In" Type="String" />
+            <Parameter Name="pNR_TELEFONE" Mode="In" Type="String" />
+            <Parameter Name="pDT_NASCIMENTO" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="LISTAR_AMIGOS" EntitySet="TB_AMIGO" ReturnType="Collection(JOHNModel.TB_AMIGO)" />
+          <FunctionImport Name="AMIGOS_POR_SEXO" ReturnType="Collection(JOHNModel.AMIGOS_POR_SEXO_Result)" />
+        </EntityContainer>
+        <ComplexType Name="AMIGOS_POR_SEXO_Result">
+          <Property Type="Int32" Name="QUANTIDADE" Nullable="true" />
+          <Property Type="String" Name="DS_SEXO" Nullable="false" MaxLength="9" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="JOHNModelStoreContainer" CdmEntityContainer="JOHNEntities">
+          <EntitySetMapping Name="TB_AMIGO">
+            <EntityTypeMapping TypeName="JOHNModel.TB_AMIGO">
+              <MappingFragment StoreEntitySet="TB_AMIGO">
+                <ScalarProperty Name="ID_AMIGO" ColumnName="ID_AMIGO" />
+                <ScalarProperty Name="ID_SEXO" ColumnName="ID_SEXO" />
+                <ScalarProperty Name="NM_AMIGO" ColumnName="NM_AMIGO" />
+                <ScalarProperty Name="DS_EMAIL" ColumnName="DS_EMAIL" />
+                <ScalarProperty Name="NR_TELEFONE" ColumnName="NR_TELEFONE" />
+                <ScalarProperty Name="DT_NASCIMENTO" ColumnName="DT_NASCIMENTO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TB_SEXO">
+            <EntityTypeMapping TypeName="JOHNModel.TB_SEXO">
+              <MappingFragment StoreEntitySet="TB_SEXO">
+                <ScalarProperty Name="ID_SEXO" ColumnName="ID_SEXO" />
+                <ScalarProperty Name="DS_SEXO" ColumnName="DS_SEXO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="CADASTRAR_AMIGO" FunctionName="JOHNModel.Store.CADASTRAR_AMIGO" />
+          <FunctionImportMapping FunctionImportName="LISTAR_AMIGOS" FunctionName="JOHNModel.Store.LISTAR_AMIGOS" />
+          <FunctionImportMapping FunctionImportName="AMIGOS_POR_SEXO" FunctionName="JOHNModel.Store.AMIGOS_POR_SEXO">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="JOHNModel.AMIGOS_POR_SEXO_Result">
+                <ScalarProperty Name="QUANTIDADE" ColumnName="QUANTIDADE" />
+                <ScalarProperty Name="DS_SEXO" ColumnName="DS_SEXO" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

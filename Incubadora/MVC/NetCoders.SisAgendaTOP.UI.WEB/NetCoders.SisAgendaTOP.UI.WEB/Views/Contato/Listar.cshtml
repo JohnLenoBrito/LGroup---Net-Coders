@@ -1,0 +1,49 @@
+﻿@model List<NetCoders.SisAgendaTOP.Model.ContatoMOD>
+
+@{
+    ViewBag.Title = "Listar Contatos";
+    Layout = "~/Views/Shered/_LayoutPadrao.cshtml";
+}
+
+<table class="table table-houver">
+    <thead>
+        <tr>
+            <th>Deletar</th>
+            <th>Editar</th>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>telefone</th>
+            <th>Sexo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var contato in Model)
+        {
+            <tr>
+                <td>
+                    <a href="/Contato/Deletar/@contato.Codigo">
+                        <img src="~/Content/Images/Deletar.png" />
+                    </a>
+                </td>
+                <td>
+                    <a href="/Contato/Editar/@contato.Codigo">
+                        <img src="~/Content/Images/Editar.png" />
+                    </a>
+                </td>
+                <td>@contato.Codigo</td>
+                <td>@contato.Nome</td>
+                <td>@contato.Email</td>
+                <td>@contato.Telefone</td>
+                <td>@contato.Sexo.Descricao</td>
+            </tr>            
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">Total:@Model.Count()</td>
+            <td colspan="3">Mulheres:@Model.Count(x=>x.Sexo.Codigo == 1)</td>
+            <td colspan="3">Homens:@Model.Count(x=>x.Sexo.Codigo == 2)</td>
+        </tr>
+    </tfoot>
+</table>

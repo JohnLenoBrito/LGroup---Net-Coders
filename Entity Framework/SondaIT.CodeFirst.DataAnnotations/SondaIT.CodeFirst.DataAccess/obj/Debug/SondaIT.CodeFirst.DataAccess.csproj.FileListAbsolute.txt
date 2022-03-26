@@ -1,0 +1,12 @@
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.DataAccess\bin\Debug\SondaIT.CodeFirst.DataAccess.dll.config
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.DataAccess\bin\Debug\SondaIT.CodeFirst.DataAccess.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.DataAccess\bin\Debug\SondaIT.CodeFirst.DataAccess.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.DataAccess\obj\Debug\SondaIT.CodeFirst.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.DataAccess\obj\Debug\SondaIT.CodeFirst.DataAccess.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.DataAccess\obj\Debug\SondaIT.CodeFirst.DataAccess.pdb
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.DataAccess\bin\Debug\SondaIT.CodeFirst.Model.dll
+C:\Users\john.oliveira\Desktop\LGroup - .Net Coders\Entity Framework\SondaIT.CodeFirst.DataAnnotations\SondaIT.CodeFirst.DataAccess\bin\Debug\SondaIT.CodeFirst.Model.pdb
